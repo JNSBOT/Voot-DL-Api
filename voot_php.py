@@ -1,4 +1,4 @@
-<?php
+<?php 
 $url =$_GET['q'];
 $id = end(explode('/', $url));
 $api =file_get_contents("https://apiv2.voot.com/wsv_2_3/playBack.json?mediaId=$id");
